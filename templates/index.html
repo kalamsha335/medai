@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediAI | Smart Medical Assistance</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <!-- Top Navbar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">M</div>
+      <div class="brand-text">
+        <h1>MediAI</h1>
+        <p>Smart Medical Assistance Chatbot</p>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <a class="btn btn-outline" href="/login">Login</a>
+      <a class="btn btn-primary" href="/register">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="landing">
+    <section class="hero-card">
+      <div class="hero-left">
+        <div class="hero-badge">AI Powered Healthcare Assistant</div>
+
+        <h2 class="hero-title">
+          Your personal health assistant for
+          <span class="hero-highlight">symptom guidance</span>
+          and smart predictions.
+        </h2>
+
+        <p class="hero-desc">
+          MediAI helps users identify possible health conditions using AI-based symptom analysis.
+          It also provides doctor recommendations, precautions, emergency alerts, chat history,
+          and downloadable reports.
+        </p>
+
+        <div class="hero-actions">
+          <a href="/register" class="btn btn-primary">Create Account</a>
+          <a href="/login" class="btn btn-outline">Login</a>
+        </div>
+
+        <div class="hero-features">
+          <div class="feature">
+            <div class="feature-icon">🧠</div>
+            <div>
+              <h4>AI Prediction</h4>
+              <p>Top-3 disease predictions with confidence.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">🚨</div>
+            <div>
+              <h4>Emergency Alerts</h4>
+              <p>Detects critical symptoms instantly.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📄</div>
+            <div>
+              <h4>Reports</h4>
+              <p>Download patient report as PDF.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Preview Card -->
+      <div class="hero-right">
+        <div class="preview-card">
+          <div class="preview-header">
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+            <span class="preview-title">MediAI Chat Preview</span>
+          </div>
+
+          <div class="preview-body">
+            <div class="preview-msg bot">
+              <b>MediAI:</b> Hello! Please type your symptoms (example: fever + cough).
+            </div>
+
+            <div class="preview-msg user">
+              <b>You:</b> chest pain and breathlessness
+            </div>
+
+            <div class="preview-msg bot">
+              <b>MediAI:</b> 🚨 Emergency detected. Please visit a hospital immediately.
+            </div>
+
+            <div class="preview-msg user">
+              <b>You:</b> stomach pain vomiting
+            </div>
+
+            <div class="preview-msg bot">
+              <b>MediAI:</b> Top Predictions:
+              <br/>1) GASTRITIS - 84%
+              <br/>2) FOOD POISONING - 10%
+              <br/>3) ACID REFLUX - 6%
+            </div>
+          </div>
+
+          <div class="preview-footer">
+            <span>Secure • Fast • User Friendly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="landing-footer">
+      <p>
+        Disclaimer: MediAI provides basic guidance only and is not a replacement for professional medical advice.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>

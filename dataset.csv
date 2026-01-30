@@ -1,0 +1,900 @@
+symptoms,disease
+fever,viral fever
+high fever,viral fever
+body pain,viral fever
+headache,viral fever
+fever high fever,viral fever
+fever body pain,viral fever
+fever headache,viral fever
+fever weakness,viral fever
+fever fatigue,viral fever
+high fever body pain,viral fever
+high fever headache,viral fever
+high fever weakness,viral fever
+high fever fatigue,viral fever
+body pain headache,viral fever
+body pain weakness,viral fever
+body pain fatigue,viral fever
+headache weakness,viral fever
+headache fatigue,viral fever
+weakness fatigue,viral fever
+fever high fever body pain,viral fever
+high fever body pain headache,viral fever
+body pain headache weakness,viral fever
+headache weakness fatigue,viral fever
+fever high fever body pain headache weakness fatigue,viral fever
+cough,common cold
+sore throat,common cold
+runny nose,common cold
+sneezing,common cold
+cough sore throat,common cold
+cough runny nose,common cold
+cough sneezing,common cold
+cough nasal congestion,common cold
+cough mild fever,common cold
+sore throat runny nose,common cold
+sore throat sneezing,common cold
+sore throat nasal congestion,common cold
+sore throat mild fever,common cold
+runny nose sneezing,common cold
+runny nose nasal congestion,common cold
+runny nose mild fever,common cold
+sneezing nasal congestion,common cold
+sneezing mild fever,common cold
+nasal congestion mild fever,common cold
+cough sore throat runny nose,common cold
+sore throat runny nose sneezing,common cold
+runny nose sneezing nasal congestion,common cold
+sneezing nasal congestion mild fever,common cold
+cough sore throat runny nose sneezing nasal congestion mild fever,common cold
+high fever,influenza
+body pain,influenza
+chills,influenza
+dry cough,influenza
+high fever body pain,influenza
+high fever chills,influenza
+high fever dry cough,influenza
+high fever fatigue,influenza
+high fever headache,influenza
+body pain chills,influenza
+body pain dry cough,influenza
+body pain fatigue,influenza
+body pain headache,influenza
+chills dry cough,influenza
+chills fatigue,influenza
+chills headache,influenza
+dry cough fatigue,influenza
+dry cough headache,influenza
+fatigue headache,influenza
+high fever body pain chills,influenza
+body pain chills dry cough,influenza
+chills dry cough fatigue,influenza
+dry cough fatigue headache,influenza
+high fever body pain chills dry cough fatigue headache,influenza
+high fever,malaria
+chills,malaria
+sweating,malaria
+body pain,malaria
+high fever chills,malaria
+high fever sweating,malaria
+high fever body pain,malaria
+high fever vomiting,malaria
+high fever weakness,malaria
+chills sweating,malaria
+chills body pain,malaria
+chills vomiting,malaria
+chills weakness,malaria
+sweating body pain,malaria
+sweating vomiting,malaria
+sweating weakness,malaria
+body pain vomiting,malaria
+body pain weakness,malaria
+vomiting weakness,malaria
+high fever chills sweating,malaria
+chills sweating body pain,malaria
+sweating body pain vomiting,malaria
+body pain vomiting weakness,malaria
+high fever chills sweating body pain vomiting weakness,malaria
+high fever,dengue
+severe headache,dengue
+joint pain,dengue
+rash,dengue
+high fever severe headache,dengue
+high fever joint pain,dengue
+high fever rash,dengue
+high fever body pain,dengue
+high fever fatigue,dengue
+severe headache joint pain,dengue
+severe headache rash,dengue
+severe headache body pain,dengue
+severe headache fatigue,dengue
+joint pain rash,dengue
+joint pain body pain,dengue
+joint pain fatigue,dengue
+rash body pain,dengue
+rash fatigue,dengue
+body pain fatigue,dengue
+high fever severe headache joint pain,dengue
+severe headache joint pain rash,dengue
+joint pain rash body pain,dengue
+rash body pain fatigue,dengue
+high fever severe headache joint pain rash body pain fatigue,dengue
+fever,typhoid
+weakness,typhoid
+stomach pain,typhoid
+loss of appetite,typhoid
+fever weakness,typhoid
+fever stomach pain,typhoid
+fever loss of appetite,typhoid
+fever headache,typhoid
+weakness stomach pain,typhoid
+weakness loss of appetite,typhoid
+weakness headache,typhoid
+stomach pain loss of appetite,typhoid
+stomach pain headache,typhoid
+loss of appetite headache,typhoid
+fever weakness stomach pain,typhoid
+weakness stomach pain loss of appetite,typhoid
+stomach pain loss of appetite headache,typhoid
+loss of appetite headache fever,typhoid
+fever weakness stomach pain loss of appetite headache,typhoid
+headache,sinusitis
+facial pain,sinusitis
+nasal congestion,sinusitis
+runny nose,sinusitis
+headache facial pain,sinusitis
+headache nasal congestion,sinusitis
+headache runny nose,sinusitis
+headache post nasal drip,sinusitis
+facial pain nasal congestion,sinusitis
+facial pain runny nose,sinusitis
+facial pain post nasal drip,sinusitis
+nasal congestion runny nose,sinusitis
+nasal congestion post nasal drip,sinusitis
+runny nose post nasal drip,sinusitis
+headache facial pain nasal congestion,sinusitis
+facial pain nasal congestion runny nose,sinusitis
+nasal congestion runny nose post nasal drip,sinusitis
+runny nose post nasal drip headache,sinusitis
+headache facial pain nasal congestion runny nose post nasal drip,sinusitis
+headache,migraine
+nausea,migraine
+vomiting,migraine
+sensitivity to light,migraine
+headache nausea,migraine
+headache vomiting,migraine
+headache sensitivity to light,migraine
+headache blurred vision,migraine
+nausea vomiting,migraine
+nausea sensitivity to light,migraine
+nausea blurred vision,migraine
+vomiting sensitivity to light,migraine
+vomiting blurred vision,migraine
+sensitivity to light blurred vision,migraine
+headache nausea vomiting,migraine
+nausea vomiting sensitivity to light,migraine
+vomiting sensitivity to light blurred vision,migraine
+sensitivity to light blurred vision headache,migraine
+headache nausea vomiting sensitivity to light blurred vision,migraine
+headache,tension headache
+stress,tension headache
+neck pain,tension headache
+fatigue,tension headache
+headache stress,tension headache
+headache neck pain,tension headache
+headache fatigue,tension headache
+stress neck pain,tension headache
+stress fatigue,tension headache
+neck pain fatigue,tension headache
+headache stress neck pain,tension headache
+stress neck pain fatigue,tension headache
+neck pain fatigue headache,tension headache
+fatigue headache stress,tension headache
+headache stress neck pain fatigue,tension headache
+breathlessness,asthma
+wheezing,asthma
+cough,asthma
+chest tightness,asthma
+breathlessness wheezing,asthma
+breathlessness cough,asthma
+breathlessness chest tightness,asthma
+wheezing cough,asthma
+wheezing chest tightness,asthma
+cough chest tightness,asthma
+breathlessness wheezing cough,asthma
+wheezing cough chest tightness,asthma
+cough chest tightness breathlessness,asthma
+chest tightness breathlessness wheezing,asthma
+breathlessness wheezing cough chest tightness,asthma
+cough,bronchitis
+chest pain,bronchitis
+mucus,bronchitis
+fatigue,bronchitis
+cough chest pain,bronchitis
+cough mucus,bronchitis
+cough fatigue,bronchitis
+cough mild fever,bronchitis
+chest pain mucus,bronchitis
+chest pain fatigue,bronchitis
+chest pain mild fever,bronchitis
+mucus fatigue,bronchitis
+mucus mild fever,bronchitis
+fatigue mild fever,bronchitis
+cough chest pain mucus,bronchitis
+chest pain mucus fatigue,bronchitis
+mucus fatigue mild fever,bronchitis
+fatigue mild fever cough,bronchitis
+cough chest pain mucus fatigue mild fever,bronchitis
+high fever,pneumonia
+cough,pneumonia
+breathlessness,pneumonia
+chest pain,pneumonia
+high fever cough,pneumonia
+high fever breathlessness,pneumonia
+high fever chest pain,pneumonia
+high fever fatigue,pneumonia
+cough breathlessness,pneumonia
+cough chest pain,pneumonia
+cough fatigue,pneumonia
+breathlessness chest pain,pneumonia
+breathlessness fatigue,pneumonia
+chest pain fatigue,pneumonia
+high fever cough breathlessness,pneumonia
+cough breathlessness chest pain,pneumonia
+breathlessness chest pain fatigue,pneumonia
+chest pain fatigue high fever,pneumonia
+high fever cough breathlessness chest pain fatigue,pneumonia
+cough,respiratory infection
+breathlessness,respiratory infection
+chest pain,respiratory infection
+fever,respiratory infection
+cough breathlessness,respiratory infection
+cough chest pain,respiratory infection
+cough fever,respiratory infection
+breathlessness chest pain,respiratory infection
+breathlessness fever,respiratory infection
+chest pain fever,respiratory infection
+cough breathlessness chest pain,respiratory infection
+breathlessness chest pain fever,respiratory infection
+chest pain fever cough,respiratory infection
+fever cough breathlessness,respiratory infection
+cough breathlessness chest pain fever,respiratory infection
+chest pain,heart problem
+breathlessness,heart problem
+sweating,heart problem
+left arm pain,heart problem
+chest pain breathlessness,heart problem
+chest pain sweating,heart problem
+chest pain left arm pain,heart problem
+chest pain dizziness,heart problem
+breathlessness sweating,heart problem
+breathlessness left arm pain,heart problem
+breathlessness dizziness,heart problem
+sweating left arm pain,heart problem
+sweating dizziness,heart problem
+left arm pain dizziness,heart problem
+chest pain breathlessness sweating,heart problem
+breathlessness sweating left arm pain,heart problem
+sweating left arm pain dizziness,heart problem
+left arm pain dizziness chest pain,heart problem
+chest pain breathlessness sweating left arm pain dizziness,heart problem
+headache,hypertension
+dizziness,hypertension
+blurred vision,hypertension
+chest discomfort,hypertension
+headache dizziness,hypertension
+headache blurred vision,hypertension
+headache chest discomfort,hypertension
+dizziness blurred vision,hypertension
+dizziness chest discomfort,hypertension
+blurred vision chest discomfort,hypertension
+headache dizziness blurred vision,hypertension
+dizziness blurred vision chest discomfort,hypertension
+blurred vision chest discomfort headache,hypertension
+chest discomfort headache dizziness,hypertension
+headache dizziness blurred vision chest discomfort,hypertension
+frequent urination,diabetes
+thirst,diabetes
+fatigue,diabetes
+weight loss,diabetes
+frequent urination thirst,diabetes
+frequent urination fatigue,diabetes
+frequent urination weight loss,diabetes
+frequent urination slow healing,diabetes
+thirst fatigue,diabetes
+thirst weight loss,diabetes
+thirst slow healing,diabetes
+fatigue weight loss,diabetes
+fatigue slow healing,diabetes
+weight loss slow healing,diabetes
+frequent urination thirst fatigue,diabetes
+thirst fatigue weight loss,diabetes
+fatigue weight loss slow healing,diabetes
+weight loss slow healing frequent urination,diabetes
+frequent urination thirst fatigue weight loss slow healing,diabetes
+sweating,hypoglycemia
+shaking,hypoglycemia
+dizziness,hypoglycemia
+hunger,hypoglycemia
+sweating shaking,hypoglycemia
+sweating dizziness,hypoglycemia
+sweating hunger,hypoglycemia
+sweating confusion,hypoglycemia
+shaking dizziness,hypoglycemia
+shaking hunger,hypoglycemia
+shaking confusion,hypoglycemia
+dizziness hunger,hypoglycemia
+dizziness confusion,hypoglycemia
+hunger confusion,hypoglycemia
+sweating shaking dizziness,hypoglycemia
+shaking dizziness hunger,hypoglycemia
+dizziness hunger confusion,hypoglycemia
+hunger confusion sweating,hypoglycemia
+sweating shaking dizziness hunger confusion,hypoglycemia
+fatigue,anemia
+weakness,anemia
+pale skin,anemia
+shortness of breath,anemia
+fatigue weakness,anemia
+fatigue pale skin,anemia
+fatigue shortness of breath,anemia
+fatigue dizziness,anemia
+weakness pale skin,anemia
+weakness shortness of breath,anemia
+weakness dizziness,anemia
+pale skin shortness of breath,anemia
+pale skin dizziness,anemia
+shortness of breath dizziness,anemia
+fatigue weakness pale skin,anemia
+weakness pale skin shortness of breath,anemia
+pale skin shortness of breath dizziness,anemia
+shortness of breath dizziness fatigue,anemia
+fatigue weakness pale skin shortness of breath dizziness,anemia
+dry mouth,dehydration
+thirst,dehydration
+dizziness,dehydration
+dark urine,dehydration
+dry mouth thirst,dehydration
+dry mouth dizziness,dehydration
+dry mouth dark urine,dehydration
+dry mouth fatigue,dehydration
+thirst dizziness,dehydration
+thirst dark urine,dehydration
+thirst fatigue,dehydration
+dizziness dark urine,dehydration
+dizziness fatigue,dehydration
+dark urine fatigue,dehydration
+dry mouth thirst dizziness,dehydration
+thirst dizziness dark urine,dehydration
+dizziness dark urine fatigue,dehydration
+dark urine fatigue dry mouth,dehydration
+dry mouth thirst dizziness dark urine fatigue,dehydration
+vomiting,food poisoning
+diarrhea,food poisoning
+stomach cramps,food poisoning
+nausea,food poisoning
+vomiting diarrhea,food poisoning
+vomiting stomach cramps,food poisoning
+vomiting nausea,food poisoning
+vomiting fever,food poisoning
+diarrhea stomach cramps,food poisoning
+diarrhea nausea,food poisoning
+diarrhea fever,food poisoning
+stomach cramps nausea,food poisoning
+stomach cramps fever,food poisoning
+nausea fever,food poisoning
+vomiting diarrhea stomach cramps,food poisoning
+diarrhea stomach cramps nausea,food poisoning
+stomach cramps nausea fever,food poisoning
+nausea fever vomiting,food poisoning
+vomiting diarrhea stomach cramps nausea fever,food poisoning
+stomach pain,gastritis
+nausea,gastritis
+vomiting,gastritis
+acidity,gastritis
+stomach pain nausea,gastritis
+stomach pain vomiting,gastritis
+stomach pain acidity,gastritis
+stomach pain burning stomach,gastritis
+nausea vomiting,gastritis
+nausea acidity,gastritis
+nausea burning stomach,gastritis
+vomiting acidity,gastritis
+vomiting burning stomach,gastritis
+acidity burning stomach,gastritis
+stomach pain nausea vomiting,gastritis
+nausea vomiting acidity,gastritis
+vomiting acidity burning stomach,gastritis
+acidity burning stomach stomach pain,gastritis
+stomach pain nausea vomiting acidity burning stomach,gastritis
+acidity,acid reflux
+heartburn,acid reflux
+burning chest,acid reflux
+burping,acid reflux
+acidity heartburn,acid reflux
+acidity burning chest,acid reflux
+acidity burping,acid reflux
+acidity sour taste,acid reflux
+heartburn burning chest,acid reflux
+heartburn burping,acid reflux
+heartburn sour taste,acid reflux
+burning chest burping,acid reflux
+burning chest sour taste,acid reflux
+burping sour taste,acid reflux
+acidity heartburn burning chest,acid reflux
+heartburn burning chest burping,acid reflux
+burning chest burping sour taste,acid reflux
+burping sour taste acidity,acid reflux
+acidity heartburn burning chest burping sour taste,acid reflux
+hard stool,constipation
+stomach pain,constipation
+bloating,constipation
+no bowel movement,constipation
+hard stool stomach pain,constipation
+hard stool bloating,constipation
+hard stool no bowel movement,constipation
+stomach pain bloating,constipation
+stomach pain no bowel movement,constipation
+bloating no bowel movement,constipation
+hard stool stomach pain bloating,constipation
+stomach pain bloating no bowel movement,constipation
+bloating no bowel movement hard stool,constipation
+no bowel movement hard stool stomach pain,constipation
+hard stool stomach pain bloating no bowel movement,constipation
+loose motion,diarrhea
+watery stool,diarrhea
+stomach cramps,diarrhea
+dehydration,diarrhea
+loose motion watery stool,diarrhea
+loose motion stomach cramps,diarrhea
+loose motion dehydration,diarrhea
+watery stool stomach cramps,diarrhea
+watery stool dehydration,diarrhea
+stomach cramps dehydration,diarrhea
+loose motion watery stool stomach cramps,diarrhea
+watery stool stomach cramps dehydration,diarrhea
+stomach cramps dehydration loose motion,diarrhea
+dehydration loose motion watery stool,diarrhea
+loose motion watery stool stomach cramps dehydration,diarrhea
+burning urination,uti
+frequent urination,uti
+lower abdominal pain,uti
+fever,uti
+burning urination frequent urination,uti
+burning urination lower abdominal pain,uti
+burning urination fever,uti
+frequent urination lower abdominal pain,uti
+frequent urination fever,uti
+lower abdominal pain fever,uti
+burning urination frequent urination lower abdominal pain,uti
+frequent urination lower abdominal pain fever,uti
+lower abdominal pain fever burning urination,uti
+fever burning urination frequent urination,uti
+burning urination frequent urination lower abdominal pain fever,uti
+severe back pain,kidney stone
+painful urination,kidney stone
+blood in urine,kidney stone
+nausea,kidney stone
+severe back pain painful urination,kidney stone
+severe back pain blood in urine,kidney stone
+severe back pain nausea,kidney stone
+painful urination blood in urine,kidney stone
+painful urination nausea,kidney stone
+blood in urine nausea,kidney stone
+severe back pain painful urination blood in urine,kidney stone
+painful urination blood in urine nausea,kidney stone
+blood in urine nausea severe back pain,kidney stone
+nausea severe back pain painful urination,kidney stone
+severe back pain painful urination blood in urine nausea,kidney stone
+yellow skin,hepatitis
+dark urine,hepatitis
+fatigue,hepatitis
+nausea,hepatitis
+yellow skin dark urine,hepatitis
+yellow skin fatigue,hepatitis
+yellow skin nausea,hepatitis
+yellow skin loss of appetite,hepatitis
+dark urine fatigue,hepatitis
+dark urine nausea,hepatitis
+dark urine loss of appetite,hepatitis
+fatigue nausea,hepatitis
+fatigue loss of appetite,hepatitis
+nausea loss of appetite,hepatitis
+yellow skin dark urine fatigue,hepatitis
+dark urine fatigue nausea,hepatitis
+fatigue nausea loss of appetite,hepatitis
+nausea loss of appetite yellow skin,hepatitis
+yellow skin dark urine fatigue nausea loss of appetite,hepatitis
+lower right abdominal pain,appendicitis
+vomiting,appendicitis
+fever,appendicitis
+loss of appetite,appendicitis
+lower right abdominal pain vomiting,appendicitis
+lower right abdominal pain fever,appendicitis
+lower right abdominal pain loss of appetite,appendicitis
+vomiting fever,appendicitis
+vomiting loss of appetite,appendicitis
+fever loss of appetite,appendicitis
+lower right abdominal pain vomiting fever,appendicitis
+vomiting fever loss of appetite,appendicitis
+fever loss of appetite lower right abdominal pain,appendicitis
+loss of appetite lower right abdominal pain vomiting,appendicitis
+lower right abdominal pain vomiting fever loss of appetite,appendicitis
+itching,allergy
+rash,allergy
+sneezing,allergy
+watery eyes,allergy
+itching rash,allergy
+itching sneezing,allergy
+itching watery eyes,allergy
+itching swelling,allergy
+rash sneezing,allergy
+rash watery eyes,allergy
+rash swelling,allergy
+sneezing watery eyes,allergy
+sneezing swelling,allergy
+watery eyes swelling,allergy
+itching rash sneezing,allergy
+rash sneezing watery eyes,allergy
+sneezing watery eyes swelling,allergy
+watery eyes swelling itching,allergy
+itching rash sneezing watery eyes swelling,allergy
+redness,skin infection
+swelling,skin infection
+pain,skin infection
+pus,skin infection
+redness swelling,skin infection
+redness pain,skin infection
+redness pus,skin infection
+redness fever,skin infection
+swelling pain,skin infection
+swelling pus,skin infection
+swelling fever,skin infection
+pain pus,skin infection
+pain fever,skin infection
+pus fever,skin infection
+redness swelling pain,skin infection
+swelling pain pus,skin infection
+pain pus fever,skin infection
+pus fever redness,skin infection
+redness swelling pain pus fever,skin infection
+itching,eczema
+dry skin,eczema
+rash,eczema
+skin redness,eczema
+itching dry skin,eczema
+itching rash,eczema
+itching skin redness,eczema
+dry skin rash,eczema
+dry skin skin redness,eczema
+rash skin redness,eczema
+itching dry skin rash,eczema
+dry skin rash skin redness,eczema
+rash skin redness itching,eczema
+skin redness itching dry skin,eczema
+itching dry skin rash skin redness,eczema
+pimples,acne
+oily skin,acne
+face bumps,acne
+pimples oily skin,acne
+pimples face bumps,acne
+oily skin face bumps,acne
+pimples oily skin face bumps,acne
+oily skin face bumps pimples,acne
+face bumps pimples oily skin,acne
+red eye,conjunctivitis
+itchy eye,conjunctivitis
+watery eye,conjunctivitis
+eye discharge,conjunctivitis
+red eye itchy eye,conjunctivitis
+red eye watery eye,conjunctivitis
+red eye eye discharge,conjunctivitis
+itchy eye watery eye,conjunctivitis
+itchy eye eye discharge,conjunctivitis
+watery eye eye discharge,conjunctivitis
+red eye itchy eye watery eye,conjunctivitis
+itchy eye watery eye eye discharge,conjunctivitis
+watery eye eye discharge red eye,conjunctivitis
+eye discharge red eye itchy eye,conjunctivitis
+red eye itchy eye watery eye eye discharge,conjunctivitis
+ear pain,ear infection
+fever,ear infection
+hearing loss,ear infection
+ear discharge,ear infection
+ear pain fever,ear infection
+ear pain hearing loss,ear infection
+ear pain ear discharge,ear infection
+fever hearing loss,ear infection
+fever ear discharge,ear infection
+hearing loss ear discharge,ear infection
+ear pain fever hearing loss,ear infection
+fever hearing loss ear discharge,ear infection
+hearing loss ear discharge ear pain,ear infection
+ear discharge ear pain fever,ear infection
+ear pain fever hearing loss ear discharge,ear infection
+sore throat,tonsillitis
+fever,tonsillitis
+difficulty swallowing,tonsillitis
+swollen tonsils,tonsillitis
+sore throat fever,tonsillitis
+sore throat difficulty swallowing,tonsillitis
+sore throat swollen tonsils,tonsillitis
+fever difficulty swallowing,tonsillitis
+fever swollen tonsils,tonsillitis
+difficulty swallowing swollen tonsils,tonsillitis
+sore throat fever difficulty swallowing,tonsillitis
+fever difficulty swallowing swollen tonsils,tonsillitis
+difficulty swallowing swollen tonsils sore throat,tonsillitis
+swollen tonsils sore throat fever,tonsillitis
+sore throat fever difficulty swallowing swollen tonsils,tonsillitis
+tooth pain,dental infection
+swelling,dental infection
+bad breath,dental infection
+fever,dental infection
+tooth pain swelling,dental infection
+tooth pain bad breath,dental infection
+tooth pain fever,dental infection
+swelling bad breath,dental infection
+swelling fever,dental infection
+bad breath fever,dental infection
+tooth pain swelling bad breath,dental infection
+swelling bad breath fever,dental infection
+bad breath fever tooth pain,dental infection
+fever tooth pain swelling,dental infection
+tooth pain swelling bad breath fever,dental infection
+joint pain,arthritis
+swelling,arthritis
+stiffness,arthritis
+reduced movement,arthritis
+joint pain swelling,arthritis
+joint pain stiffness,arthritis
+joint pain reduced movement,arthritis
+swelling stiffness,arthritis
+swelling reduced movement,arthritis
+stiffness reduced movement,arthritis
+joint pain swelling stiffness,arthritis
+swelling stiffness reduced movement,arthritis
+stiffness reduced movement joint pain,arthritis
+reduced movement joint pain swelling,arthritis
+joint pain swelling stiffness reduced movement,arthritis
+back pain,spine issue
+stiffness,spine issue
+posture pain,spine issue
+neck pain,spine issue
+back pain stiffness,spine issue
+back pain posture pain,spine issue
+back pain neck pain,spine issue
+stiffness posture pain,spine issue
+stiffness neck pain,spine issue
+posture pain neck pain,spine issue
+back pain stiffness posture pain,spine issue
+stiffness posture pain neck pain,spine issue
+posture pain neck pain back pain,spine issue
+neck pain back pain stiffness,spine issue
+back pain stiffness posture pain neck pain,spine issue
+muscle pain,muscle strain
+swelling,muscle strain
+tenderness,muscle strain
+movement pain,muscle strain
+muscle pain swelling,muscle strain
+muscle pain tenderness,muscle strain
+muscle pain movement pain,muscle strain
+swelling tenderness,muscle strain
+swelling movement pain,muscle strain
+tenderness movement pain,muscle strain
+muscle pain swelling tenderness,muscle strain
+swelling tenderness movement pain,muscle strain
+tenderness movement pain muscle pain,muscle strain
+movement pain muscle pain swelling,muscle strain
+muscle pain swelling tenderness movement pain,muscle strain
+severe pain,fracture
+swelling,fracture
+unable to move,fracture
+deformity,fracture
+severe pain swelling,fracture
+severe pain unable to move,fracture
+severe pain deformity,fracture
+swelling unable to move,fracture
+swelling deformity,fracture
+unable to move deformity,fracture
+severe pain swelling unable to move,fracture
+swelling unable to move deformity,fracture
+unable to move deformity severe pain,fracture
+deformity severe pain swelling,fracture
+severe pain swelling unable to move deformity,fracture
+panic,anxiety
+fast heartbeat,anxiety
+sweating,anxiety
+fear,anxiety
+panic fast heartbeat,anxiety
+panic sweating,anxiety
+panic fear,anxiety
+panic breathlessness,anxiety
+fast heartbeat sweating,anxiety
+fast heartbeat fear,anxiety
+fast heartbeat breathlessness,anxiety
+sweating fear,anxiety
+sweating breathlessness,anxiety
+fear breathlessness,anxiety
+panic fast heartbeat sweating,anxiety
+fast heartbeat sweating fear,anxiety
+sweating fear breathlessness,anxiety
+fear breathlessness panic,anxiety
+panic fast heartbeat sweating fear breathlessness,anxiety
+sadness,depression
+loss of interest,depression
+fatigue,depression
+sleep issues,depression
+sadness loss of interest,depression
+sadness fatigue,depression
+sadness sleep issues,depression
+loss of interest fatigue,depression
+loss of interest sleep issues,depression
+fatigue sleep issues,depression
+sadness loss of interest fatigue,depression
+loss of interest fatigue sleep issues,depression
+fatigue sleep issues sadness,depression
+sleep issues sadness loss of interest,depression
+sadness loss of interest fatigue sleep issues,depression
+sleep problem,insomnia
+difficulty sleeping,insomnia
+tiredness,insomnia
+stress,insomnia
+sleep problem difficulty sleeping,insomnia
+sleep problem tiredness,insomnia
+sleep problem stress,insomnia
+difficulty sleeping tiredness,insomnia
+difficulty sleeping stress,insomnia
+tiredness stress,insomnia
+sleep problem difficulty sleeping tiredness,insomnia
+difficulty sleeping tiredness stress,insomnia
+tiredness stress sleep problem,insomnia
+stress sleep problem difficulty sleeping,insomnia
+sleep problem difficulty sleeping tiredness stress,insomnia
+high fever,heat stroke
+hot skin,heat stroke
+confusion,heat stroke
+dizziness,heat stroke
+high fever hot skin,heat stroke
+high fever confusion,heat stroke
+high fever dizziness,heat stroke
+high fever vomiting,heat stroke
+hot skin confusion,heat stroke
+hot skin dizziness,heat stroke
+hot skin vomiting,heat stroke
+confusion dizziness,heat stroke
+confusion vomiting,heat stroke
+dizziness vomiting,heat stroke
+high fever hot skin confusion,heat stroke
+hot skin confusion dizziness,heat stroke
+confusion dizziness vomiting,heat stroke
+dizziness vomiting high fever,heat stroke
+high fever hot skin confusion dizziness vomiting,heat stroke
+sneezing,cold allergy
+runny nose,cold allergy
+watery eyes,cold allergy
+itching,cold allergy
+sneezing runny nose,cold allergy
+sneezing watery eyes,cold allergy
+sneezing itching,cold allergy
+runny nose watery eyes,cold allergy
+runny nose itching,cold allergy
+watery eyes itching,cold allergy
+sneezing runny nose watery eyes,cold allergy
+runny nose watery eyes itching,cold allergy
+watery eyes itching sneezing,cold allergy
+itching sneezing runny nose,cold allergy
+sneezing runny nose watery eyes itching,cold allergy
+fever,covid-19
+dry cough,covid-19
+loss of smell,covid-19
+breathlessness,covid-19
+fever dry cough,covid-19
+fever loss of smell,covid-19
+fever breathlessness,covid-19
+fever fatigue,covid-19
+dry cough loss of smell,covid-19
+dry cough breathlessness,covid-19
+dry cough fatigue,covid-19
+loss of smell breathlessness,covid-19
+loss of smell fatigue,covid-19
+breathlessness fatigue,covid-19
+fever dry cough loss of smell,covid-19
+dry cough loss of smell breathlessness,covid-19
+loss of smell breathlessness fatigue,covid-19
+breathlessness fatigue fever,covid-19
+fever dry cough loss of smell breathlessness fatigue,covid-19
+fever,chickenpox
+itchy rash,chickenpox
+blisters,chickenpox
+body pain,chickenpox
+fever itchy rash,chickenpox
+fever blisters,chickenpox
+fever body pain,chickenpox
+itchy rash blisters,chickenpox
+itchy rash body pain,chickenpox
+blisters body pain,chickenpox
+fever itchy rash blisters,chickenpox
+itchy rash blisters body pain,chickenpox
+blisters body pain fever,chickenpox
+body pain fever itchy rash,chickenpox
+fever itchy rash blisters body pain,chickenpox
+fever,measles
+rash,measles
+cough,measles
+runny nose,measles
+fever rash,measles
+fever cough,measles
+fever runny nose,measles
+fever red eyes,measles
+rash cough,measles
+rash runny nose,measles
+rash red eyes,measles
+cough runny nose,measles
+cough red eyes,measles
+runny nose red eyes,measles
+fever rash cough,measles
+rash cough runny nose,measles
+cough runny nose red eyes,measles
+runny nose red eyes fever,measles
+fever rash cough runny nose red eyes,measles
+joint pain,gout
+swelling,gout
+redness,gout
+big toe pain,gout
+joint pain swelling,gout
+joint pain redness,gout
+joint pain big toe pain,gout
+swelling redness,gout
+swelling big toe pain,gout
+redness big toe pain,gout
+joint pain swelling redness,gout
+swelling redness big toe pain,gout
+redness big toe pain joint pain,gout
+big toe pain joint pain swelling,gout
+joint pain swelling redness big toe pain,gout
+fatigue,thyroid disorder
+weight gain,thyroid disorder
+hair loss,thyroid disorder
+cold intolerance,thyroid disorder
+fatigue weight gain,thyroid disorder
+fatigue hair loss,thyroid disorder
+fatigue cold intolerance,thyroid disorder
+weight gain hair loss,thyroid disorder
+weight gain cold intolerance,thyroid disorder
+hair loss cold intolerance,thyroid disorder
+fatigue weight gain hair loss,thyroid disorder
+weight gain hair loss cold intolerance,thyroid disorder
+hair loss cold intolerance fatigue,thyroid disorder
+cold intolerance fatigue weight gain,thyroid disorder
+fatigue weight gain hair loss cold intolerance,thyroid disorder
+irregular periods,pcos
+weight gain,pcos
+acne,pcos
+hair growth,pcos
+irregular periods weight gain,pcos
+irregular periods acne,pcos
+irregular periods hair growth,pcos
+weight gain acne,pcos
+weight gain hair growth,pcos
+acne hair growth,pcos
+irregular periods weight gain acne,pcos
+weight gain acne hair growth,pcos
+acne hair growth irregular periods,pcos
+hair growth irregular periods weight gain,pcos
+irregular periods weight gain acne hair growth,pcos
+nausea,pregnancy nausea
+vomiting,pregnancy nausea
+missed period,pregnancy nausea
+fatigue,pregnancy nausea
+nausea vomiting,pregnancy nausea
+nausea missed period,pregnancy nausea
+nausea fatigue,pregnancy nausea
+vomiting missed period,pregnancy nausea
+vomiting fatigue,pregnancy nausea
+missed period fatigue,pregnancy nausea
+nausea vomiting missed period,pregnancy nausea
+vomiting missed period fatigue,pregnancy nausea
+missed period fatigue nausea,pregnancy nausea
+fatigue nausea vomiting,pregnancy nausea
+nausea vomiting missed period fatigue,pregnancy nausea

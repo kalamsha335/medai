@@ -1,0 +1,8 @@
+flask
+pymongo
+dnspython
+scikit-learn
+pandas
+numpy
+werkzeug
+reportlab

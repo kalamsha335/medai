@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediAI Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <!-- Top Navbar -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">M</div>
+      <div class="brand-text">
+        <h1>MediAI</h1>
+        <p>Smart Medical Assistance Chatbot</p>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <a class="btn btn-outline" href="/download_report">Download Report</a>
+      <a class="btn btn-danger" href="/logout">Logout</a>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="layout">
+    <!-- Left Panel -->
+    <aside class="sidebar">
+      <div class="user-card">
+        <div class="avatar">{{ name[0] }}</div>
+        <div>
+          <h2>Welcome,</h2>
+          <h3>{{ name }}</h3>
+          <p class="status">● Online</p>
+        </div>
+      </div>
+
+      <div class="tips-card">
+        <h4>Quick Tips</h4>
+        <ul>
+          <li>Type 2–3 symptoms for better accuracy</li>
+          <li>Example: fever + cough + sore throat</li>
+          <li>For chest pain, seek emergency help</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-actions">
+        <button class="btn btn-outline w-full" onclick="loadHistory()">History</button>
+        <button class="btn btn-secondary w-full" onclick="clearChat()">Clear Chat</button>
+      </div>
+
+      <div class="footer-note">
+        <p><b>Disclaimer:</b> This chatbot provides basic guidance only.</p>
+      </div>
+    </aside>
+
+    <!-- Chat Panel -->
+    <section class="chat-panel">
+      <div class="chat-header">
+        <div>
+          <h2>AI Chat</h2>
+          <p>Describe your symptoms and get suggestions instantly.</p>
+        </div>
+        <div class="badge">AI Powered</div>
+      </div>
+
+      <div id="chatbox" class="chatbox">
+        <div class="message bot">
+          <div class="bubble">
+            <div class="msg-title">MediAI Assistant</div>
+            Hello {{ name }}, I’m here to help.  
+            Please type your symptoms (example: <b>fever headache cough</b>).
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Area -->
+      <div class="input-area">
+        <div class="input-wrap">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Type symptoms... (ex: fever cough sore throat)"
+            autocomplete="off"
+          />
+          <button class="icon-btn" onclick="sendMessage()" title="Send">
+            ➤
+          </button>
+        </div>
+
+        <button class="btn btn-voice" onclick="startVoice()">🎙 Voice</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

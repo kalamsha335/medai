@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediAI | Register</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+  <div class="auth-wrapper">
+    <div class="auth-card">
+      <div class="auth-brand">
+        <div class="auth-logo">M</div>
+        <div>
+          <h1>MediAI</h1>
+          <p>Smart Medical Assistance Chatbot</p>
+        </div>
+      </div>
+
+      <h2 class="auth-title">Create account</h2>
+      <p class="auth-subtitle">Join MediAI to track your chat history.</p>
+
+      <form class="auth-form" method="POST" action="/register">
+        <label>Full Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required />
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required />
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Create a password" required />
+
+        <button class="btn btn-primary w-full" type="submit">Register</button>
+      </form>
+
+      <div class="auth-footer">
+        <p>Already have an account?</p>
+        <a href="/login" class="link">Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
